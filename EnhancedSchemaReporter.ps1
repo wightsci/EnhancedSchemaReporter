@@ -16,11 +16,9 @@ Reports are available as HTML, XML or CSV files or can be output directly onto t
 
 An option is available to immediately view the report(s) generated using the ViewOutput parameter.
 
-The HTMLFile output contains a JavaScript function to sort the results of the table by any column heading.
-Please be aware the the performance of the sorting script is poor, so please bear with it whilst it sorts.
-Many of the schema entries have ~400 properties!
+This version uses JQuery and DataTables for extra functionality in the browser, including sorting and searching.
 
-Find the current version on GitHub at: https://github.com/wightsci/EnhanceSchemaReporter
+Find the current version on GitHub at: https://github.com/wightsci/EnhancedSchemaReporter
 
 .PARAMETER ListClasses
 This switch parameter specifies that the report will be a list of all classes available,
